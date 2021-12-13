@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(express.static(__dirname))
 
-var dbUrl= 'mongodb+srv://Priyanka26:AAUPM8095m*@nodedatabase.zmwgk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+var dbUrl= 'mongodb+srv://Username:<Password>@nodedatabase.zmwgk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 var Product = mongoose.model('product', {
     product: {
         productid: Number,
